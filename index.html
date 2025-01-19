@@ -1,0 +1,221 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body>
+    <header class="header">
+            
+        <a href="#Home" class="logo">Portfolio</a>
+        <nav class="navbar" id="myLinks">
+            <a href="#Home" style="--i:1" class="active" >Home</a>
+            <a href="#about" style="--i:2">About</a>
+            <a href="#services" style="--i:3">Services</a>
+            <a href="#project" style="--i:4">Projects</a>
+            <a href="#contact" style="--i:5">Contact</a>
+        </nav>
+    </header>
+
+
+    <section class="home" id="Home">
+        <div class="home-content">
+            
+            <h3>Hello, It's Me</h3>
+            <h1>Gourav Soni</h1>
+            <h4 style="--i:6">I'm a student who is<br>
+                passionate in <span>Web Developer</span></h4>
+            
+            <div class="img">
+                 <img src="Images/final.jpg" class="responsive">
+            </div>
+
+            <div class="home-sci">
+                <a href="https://github.com/Gouravsoni17"style="--i:7" target="_blank"><i class="fa-brands fa-github"></i></a>
+                <a href="https://www.instagram.com/thegouravsony17?igsh=MWYwenBseWUzemE2ZQ=="style="--i:8" target="_blank"><i class="fa-brands fa-instagram"></i></a>
+                <a href="https://www.linkedin.com/in/gourav-soni17?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app"style="--i:9" target="_blank"><i class="fa-brands fa-linkedin-in"></i></a>
+                <!-- <a href="https://www.youtube.com/@TECHSTARK1M"style="--i:10" target="_blank"><i class="fa-brands fa-youtube"></i></a> -->
+            </div>
+            <a href="Gourav_Soni.pdf" download style="--i:11" class="btn-box" target="_blank">Download Resume</a>
+            
+        </div>
+    </section>
+    <!-- -----header home------ -->
+   
+    <!-- -------about-------- -->
+    <div id="about">
+        <div class="container">
+            <div class="row">
+                <div class="about-col-1">
+                   
+                    <img src="Images/final1.jpg">
+                </div>
+                <div class="about-col-2">
+                    <h1 class="sub-title"><span>About</span> Me</h1>
+                    <p>Skilled web developer with over 3 years of expertise in frontend development, UX/UI design, and a solid foundation in Data Structures, Algorithms, and Object-Oriented Programming (OOPs) principles. Adept at creating intuitive, user-friendly interfaces that enhance user experience while aligning with business objectives. Skilled in analyzing client requirements and translating them into dynamic, responsive websites with a strong focus on functionality and aesthetics. Passionate about clean efficient code, leveraging advanced algorithms and design patterns to optimize performance. Continuously stays updated with emerging web technologies and design trends.
+                    </p>
+
+                    <div class="tab-titles">
+                        <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+                        <p class="tab-links"onclick="opentab('experience')">Experience</p>
+                        <p class="tab-links"onclick="opentab('education')">Education</p>
+                    </div>
+                    <div class="tab-contents active-tab " id="skills">
+                        <ul>
+                            <li><span>Frontend Developer</span><br>Designing User interfaces</li>
+                            <li><span>UX/UI</span><br>Design Web interfaces</li>
+                            <li><span>Backend Development</span><br>Building FullStack Web Application</li>
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="experience">
+                        <ul>
+                            <li><span>Intership</span><br>YPSILON IT SOLUTION PVT.LTD</li>
+                            <li><span>Full Stack development</span><br>Web app Development</li>
+                            <li><span>Web App Development</span><br>Building Web Application</li>
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="education">
+                        <ul>
+                            <li><span>Gyan Sagar Institute of Technology</span><br>B.Tech in Computer Science</li>
+                            <li><span>Pearl Public High Sec. School</span><br>12th (PCM)</li>
+                            <li><span>Online Course</span><br>Apna College (Sigma 3.0) Betch</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+<!-- ----------------------Services------------------ -->
+
+    <div id="services">
+        <div class="container">
+            <h1 class="sub-title"><span>My</span> Services</h1>
+            <div class="services-list">
+                <div>
+                    <i class="fa-solid fa-code"></i>
+                    <h2>Web Design</h2>
+                    <p>Experienced frontend developer with a strong focus on web design, specializing in creating responsive and visually appealing interfaces. Proficient in HTML, CSS, JavaScript, and modern frontend frameworks</p>
+                    <a href="#">Learn more</a>
+                </div>
+                <div>
+                    <i class="fa-solid fa-crop-simple"></i>
+                    <h2>UI/UX Design</h2>
+                    <p>Passionate UX/UI designer with over 1 years of experience in creating intuitive and user-friendly interfaces. Skilled in translating user needs and business goals into effective design solutions,</p>
+                    <a href="#">Learn more</a>
+                </div>
+                <div>
+                    <i class="fa-brands fa-app-store"></i>
+                    <h2>Web Developer</h2>
+                    <p>Enthusiastic web developer dedicated to building visually engaging and responsive websites. Skilled in HTML, CSS, JavaScript, and React, with a strong focus on creating seamless user experiences.</p>
+                    <a href="#">Learn more</a>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+    <!---------------------Portfolio---------------- -->
+
+    <div id="project">
+        <div class="container">
+            <h1 class="sub-title"><span>My</span> Work</h1>
+            <div class="work-list">
+                <div class="work">
+                    <img src="Images/speech.png">
+                    <div class="layer">
+                        <h3>Text-to-Speech Converter</h3>
+                        <p> I feature a text-to-speech converter that supports multiple languages, providing accurate and natural-sounding speech output.
+                        </p>
+                        <a href="https://66f544f304b27ad233030e65--text-to-speech-converter-gs.netlify.app/"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="Images/image.png">
+                    <div class="layer">
+                        <h3>Images Search Engin</h3>
+                        <p>The app connexts you the talented people around the world.
+                            Download it from play store.
+                        </p>
+                        <a href="https://image-search-engin-gs.netlify.app/"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="Images/Quiz.png">
+                    <div class="layer">
+                        <h3>Quiz App</h3>
+                        <p>The app connexts you the talented people around the world.
+                            Download it from play store.
+                        </p>
+                        <a href="https://quiz-app-gs.netlify.app/"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                    </div>
+                </div>
+            </div>
+            <!-- <a href="#" class="btn">See more</a> --><br><br><br><br><br>
+        </div>
+    </div>
+    <!-- ------------------Contact--------------------->
+                                           
+    <div id="contact">
+        <div class="container">
+            <div class="row">
+            <div class="contact-left">      
+                <h1 class="sub-title"><span>Contact</span> Me</h1>
+                <a href="https://www.gouravsoni39635@gmail.com" class="email"><i class="fa-solid fa-envelope"></i>gouravsoni39635@gmail.com</a>
+                <p><i class="fa-solid fa-square-phone"></i> +91 9340242877</p>
+                <div class="social-icons">
+                    <!-- <a href="#"><i class="fa-brands fa-facebook"></i></a> -->
+                    <a href="https://github.com/Gouravsoni17"><i class="fa-brands fa-github"></i></a>
+                    <a href="#"><i class="fa-brands fa-instagram"></i></a>
+                    <a href="https://www.linkedin.com/in/gourav-soni17?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app"><i class="fa-brands fa-linkedin"></i></a>
+                </div>
+                <a href="Gourav_Soni.pdf" download class="btn btn2">Download Resume<i class="fa-solid fa-circle-down fa-bounce"></i></a>
+            </div>
+            
+           
+                <div class="contact-right">
+                    <form action="https://api.web3forms.com/submit" method="POST">
+                        <input type="hidden" name="access_key" value="762654fc-3c67-4a7d-848d-4b1496d13f84">
+                        <input type="text"name="name" placeholder="Your Name" required>
+                        <input type="email" id="email" name="email" placeholder="Your Email Id" required>
+                        <textarea name="message" rows="6" placeholder="Your Message"></textarea>
+                        <button type="submit" class="btn btn3">Submit</button>
+                    </form>
+                </div>
+            </div>
+            </div>    
+        </div>
+        <div class="copyright">
+            <p>2025 My Portfolio. All rights reserved.</p>
+        </div>
+</div>
+
+
+
+
+
+
+
+
+
+    <script>
+
+        var tablinks= document.getElementsByClassName("tab-links");
+        var tabcontents= document.getElementsByClassName("tab-contents");
+
+        function opentab(tabname){
+            for(tablink of tablinks){
+                tablink.classList.remove("active-link")
+            }
+            for(tabcontent of  tabcontents){
+                tabcontent.classList.remove("active-tab")
+            }
+            event.currentTarget.classList.add("active-link");
+            document.getElementById(tabname).classList.add("active-tab");
+        }
+    </script>
+
+   
+</body>
+</html>
